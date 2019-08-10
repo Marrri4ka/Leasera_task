@@ -1,0 +1,17 @@
+{
+  "User" : [ {
+    "first_name" : "Mariia",
+    "last_name" : "Stashuk",
+    "age" : 18,
+    "email" : "ma@gmail.com",
+    "password" : "4444"
+  }, {
+    "first_name" : 6.60464,
+    "last_name" : 0.0,
+    "age" : false,
+    "email" : 5867,
+    "password" : 4
+
+  }
+  ]
+}
