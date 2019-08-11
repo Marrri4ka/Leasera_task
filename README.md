@@ -5,23 +5,31 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ![Alt text](/img/img1.png)
 ![Alt text](/img/img2.png)
 
+## Steps to reproduce and specifications
 
+Please use for example ma@gmail.com as email and password 4444 to verify successful scenario. See leasera_db.json for more entries.
 
+* As a user you are able  to see a login form with two text boxes (one for email, one for password) and a login button.
+* When the user clicks on the login button, it should login and retrieve all 5 fields from the User table in database and display it when the login and password are correct
+* When the user enters the invalid email of empty password a validation error will be displayed
+* When the user enters the invalid email / password combination, an alert will be shown
+
+If you have any questions or problems, please contact
+* Mariia Stashuk(mariiapopovych@gmail.com)
 
 ## Support and contact details
 
 If you have any questions or problems, please contact
 * Mariia Stashuk(mariiapopovych@gmail.com)
-access the local database
 
 ##  Access the local database
 
-* Download leasera_db.json (you find it in root folder)
-* Go to your Firebase console->Three Dots on the right->Import JSON.
+* Download leasera_db.json (you can find it in the root folder)
+* Go to your Firebase console -> Three Dots on the right -> Import JSON.
  ![Alt text](/img/importjson.png)
-* Make sure that in `axios-db.js` is your baseURL
+* Make sure that in `axios-db.js` has the base URL of the firebase project
   ![Alt text](/img/URL.png)
-* To find it go to Project Overview -> Project settings -> Config
+* To find it go to Project Overview -> Project settings -> Config -> databaseURL
     ![Alt text](/img/baseURL.png)
 
 
@@ -36,14 +44,6 @@ In the project directory run:
 ### `npm start`
 
 
-
-## Specifications
-
-
-* As a user you are able  to see a login form with tow text boxes (one for email, one for password) and login button
-* When user click on the login button, it should login and retrieve all 5 fields from the User table in database and display it
-
-
 ## Technical Features
 * React
 * Bootstrap
@@ -54,7 +54,7 @@ In the project directory run:
 
 
 
-##Available Scripts
+## Available Scripts
 <details>
 <summary>Click Here for Details</summary>
 
@@ -126,6 +126,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 ## 📜 License
 
-[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+[![MIT License](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
 Copyright (c) 2019 **_Mariia Stashuk_ **

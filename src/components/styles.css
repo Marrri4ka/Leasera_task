@@ -53,7 +53,7 @@
     color:#fff;
 }
 /*Card*/
-body, .badgescard, .firstinfo {
+body, .firstinfo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -99,24 +99,6 @@ body {
   background: cadetblue;
   position: absolute;
   animation: rotatemagic 0.75s cubic-bezier(0.425, 1.04, 0.47, 1.105) 1s both;
-}
-
-.badgescard {
-  padding: 10px 20px;
-  border-radius: 3px;
-  background-color: #ECECEC;
-  width: 480px;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
-  position: absolute;
-  z-index: -1;
-  left: 10px;
-  bottom: 10px;
-  animation: animainfos 0.5s cubic-bezier(0.425, 1.04, 0.47, 1.105) 0.75s forwards;
-}
-.badgescard span {
-  font-size: 1.6em;
-  margin: 0px 6px;
-  opacity: 0.6;
 }
 
 .firstinfo {

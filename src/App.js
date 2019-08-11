@@ -26,8 +26,7 @@ class App extends React.Component {
     axios.get('/User.json').then(function(response) {
       Object.keys(response.data).forEach(function(key) {
         userListDb.push(response.data[key]);
-
-      })
+      });
 
       that.setState({
         userList: userListDb
@@ -37,10 +36,9 @@ class App extends React.Component {
 
   handleLogin(_email, _password, _form) {
     if (_form.reportValidity()) {
-
       let found = false;
-      this.state.userList.map((user) => {
 
+      this.state.userList.map((user) => {
         if (user.email === _email.value && user.password === _password.value) {
           found = true;
           this.setState({
@@ -60,15 +58,25 @@ class App extends React.Component {
     }
 
   }
+
   render() {
     return (
       <div>
-      <Switch>
-      <Route exact path='/' render ={()=> <Home handleLogin={this.handleLogin} userList={this.state.userList}/>}/>
-      <Route  path='/details' render ={()=> <UserDetails age={this.state.age} email={this.state.email} password={this.state.password} lastName={this.state.last_name}firstName = {this.state.first_name}/>}/>
-      </Switch>
-
-    </div>
+        <Switch>
+          <Route
+            exact path='/'
+            render ={()=> <Home handleLogin={this.handleLogin} userList={this.state.userList}/>}/>
+          <Route
+            path='/details'
+            render ={()=>
+              <UserDetails
+                age={this.state.age}
+                email={this.state.email}
+                password={this.state.password}
+                lastName={this.state.last_name}
+                firstName = {this.state.first_name}/>}/>
+        </Switch>
+      </div>
     );
   }
 }
