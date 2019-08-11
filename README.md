@@ -7,6 +7,36 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 
+
+## Support and contact details
+
+If you have any questions or problems, please contact
+* Mariia Stashuk(mariiapopovych@gmail.com)
+access the local database
+
+##  Access the local database
+
+* Download leasera_db.json (you find it in root folder)
+* Go to your Firebase console->Three Dots on the right->Import JSON.
+ ![Alt text](/img/importjson.png)
+* Make sure that in `axios-db.js` is your baseURL
+  ![Alt text](/img/URL.png)
+* To find it go to Project Overview -> Project settings -> Config
+    ![Alt text](/img/baseURL.png)
+
+
+##  Set up the project
+
+Clone project directory:
+### `https://github.com/Marrri4ka/Leasera_task.git`
+### `cd Leasera_task`
+
+In the project directory run:
+### `npm install`
+### `npm start`
+
+
+
 ## Specifications
 
 
@@ -20,31 +50,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * HTML
 * CSS
 * Firebase
-
-
-## Support and contact details
-
-If you have any questions or problems, please contact
-* Mariia Stashuk(mariiapopovych@gmail.com)
-access the local database
-
-##  Access the local database
-
-* Download leasera_db.json (you find it in root folder)
-* Go to your Firebase console->Three Dots on the right->Import JSON.
- ![Alt text](/img/importjson.png)
-
-
-##  Set up the project
-
-Clone project directory:
-### `https://github.com/Marrri4ka/Leasera_task.git`
-### `cd Leasera_task`
-
-In the project directory run:
-### `npm install`
-### `npm start`
-
 
 
 
