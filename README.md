@@ -28,9 +28,9 @@ If you have any questions or problems, please contact
 * Go to your Firebase console -> Three Dots on the right -> Import JSON.
  ![Alt text](/img/importjson.png)
 * Make sure that in `axios-db.js` has the base URL of the firebase project
-  ![Alt text](/img/URL.png)
+  ![Alt text](https://pasteboard.co/IsjAYRo.png)
 * To find it go to Project Overview -> Project settings -> Config -> databaseURL
-    ![Alt text](/img/baseURL.png)
+    ![Alt text](https://pasteboard.co/IsjAEBy.png)
 
 
 ##  Set up the project
